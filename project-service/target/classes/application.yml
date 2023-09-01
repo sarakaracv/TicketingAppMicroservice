@@ -1,6 +1,6 @@
 spring:
   application:
-    name: task-service
+    name: project-service
   profiles:
     active: default
   jpa:
@@ -16,7 +16,8 @@ spring:
     password: admin
     driver-class-name: org.postgresql.Driver
 server:
-  port: 9092
+  port: 9091
+
 
 eureka:
   instance:
@@ -42,6 +43,6 @@ info:
   application:
     name: ${spring.application.name}
     description: Ticketing Application
-    version: '@project.version@'
-    spring-cloud-version: '@spring-cloud.version@'
-    spring-boot-version: '@project.parent.version@'
+    version: '0.0.1-SNAPSHOT'
+    spring-cloud-version: '2.2.6.RELEASE'
+    spring-boot-version: '0.0.1-SNAPSHOT'
