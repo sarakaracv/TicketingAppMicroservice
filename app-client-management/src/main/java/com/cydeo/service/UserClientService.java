@@ -1,5 +1,6 @@
 package com.cydeo.service;
 
+import com.cydeo.dto.UserDTO;
 import com.cydeo.dto.UserResponseDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
